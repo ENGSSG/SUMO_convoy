@@ -1,67 +1,427 @@
 {
   "events": [
     {
-      "time": 8.0,
-      "type": "ESCORT_REQUEST",
-      "vehicle": "malfunction_0",
-      "data": {
-        "edge": "W_J1"
-      }
+      "time": 2.0,
+      "type": "HELPER_SPAWN",
+      "vehicle": "helper_1",
+      "route": [
+        "A0B0",
+        "B0B1",
+        "B1B2",
+        "B2B3",
+        "B3C3",
+        "C3D3"
+      ]
     },
     {
       "time": 8.0,
-      "type": "ESCORT_START",
+      "type": "MALFUNCTION_SPAWN",
       "vehicle": "malfunction_0",
-      "data": {
-        "helper": "helper_A"
-      }
+      "destination": "D3",
+      "route": [
+        "A0B0",
+        "B0B1",
+        "B1B2",
+        "B2B3",
+        "B3C3",
+        "C3D3"
+      ]
     },
     {
-      "time": 37.1,
+      "time": 8.1,
       "type": "ESCORT_START",
-      "vehicle": "malfunction_0",
-      "data": {
-        "helper": "helper_C"
-      }
+      "malfunction": "malfunction_0",
+      "helper": "helper_1"
     },
     {
-      "time": 37.1,
+      "time": 12.0,
+      "type": "HELPER_SPAWN",
+      "vehicle": "helper_2",
+      "route": [
+        "A0B0",
+        "B0B1",
+        "B1B2",
+        "B2C2",
+        "C2D2"
+      ]
+    },
+    {
+      "time": 22.0,
+      "type": "HELPER_SPAWN",
+      "vehicle": "helper_3",
+      "route": [
+        "B0B1",
+        "B1B2",
+        "B2B3",
+        "B3C3",
+        "C3D3"
+      ]
+    },
+    {
+      "time": 32.0,
+      "type": "HELPER_SPAWN",
+      "vehicle": "helper_4",
+      "route": [
+        "B1B2",
+        "B2B3",
+        "B3C3",
+        "C3D3"
+      ]
+    },
+    {
+      "time": 42.0,
+      "type": "HELPER_SPAWN",
+      "vehicle": "helper_5",
+      "route": [
+        "B2B3",
+        "B3C3",
+        "C3D3"
+      ]
+    },
+    {
+      "time": 52.0,
+      "type": "HELPER_SPAWN",
+      "vehicle": "helper_6",
+      "route": [
+        "A0B0",
+        "B0C0",
+        "C0C1",
+        "C1C2",
+        "C2C3",
+        "C3D3"
+      ]
+    },
+    {
+      "time": 62.0,
+      "type": "HELPER_SPAWN",
+      "vehicle": "helper_7",
+      "route": [
+        "A0B0",
+        "B0B1",
+        "B1B2",
+        "B2B3",
+        "B3C3",
+        "C3D3"
+      ]
+    },
+    {
+      "time": 72.0,
+      "type": "HELPER_SPAWN",
+      "vehicle": "helper_8",
+      "route": [
+        "A0B0",
+        "B0B1",
+        "B1B2",
+        "B2B3",
+        "B3C3",
+        "C3D3"
+      ]
+    },
+    {
+      "time": 82.0,
+      "type": "HELPER_SPAWN",
+      "vehicle": "helper_9",
+      "route": [
+        "A0B0",
+        "B0B1",
+        "B1B2",
+        "B2C2",
+        "C2D2"
+      ]
+    },
+    {
+      "time": 92.0,
+      "type": "HELPER_SPAWN",
+      "vehicle": "helper_10",
+      "route": [
+        "B0B1",
+        "B1B2",
+        "B2B3",
+        "B3C3",
+        "C3D3"
+      ]
+    },
+    {
+      "time": 102.0,
+      "type": "HELPER_SPAWN",
+      "vehicle": "helper_11",
+      "route": [
+        "B1B2",
+        "B2B3",
+        "B3C3",
+        "C3D3"
+      ]
+    },
+    {
+      "time": 112.0,
+      "type": "HELPER_SPAWN",
+      "vehicle": "helper_12",
+      "route": [
+        "B2B3",
+        "B3C3",
+        "C3D3"
+      ]
+    },
+    {
+      "time": 122.0,
+      "type": "HELPER_SPAWN",
+      "vehicle": "helper_13",
+      "route": [
+        "A0B0",
+        "B0C0",
+        "C0C1",
+        "C1C2",
+        "C2C3",
+        "C3D3"
+      ]
+    },
+    {
+      "time": 127.6,
       "type": "HANDOFF",
-      "vehicle": "malfunction_0",
-      "data": {
-        "old_helper": "helper_A",
-        "new_helper": "helper_C"
-      }
+      "from": "helper_1",
+      "to": "helper_11"
     },
     {
-      "time": 57.1,
+      "time": 127.6,
       "type": "ESCORT_START",
-      "vehicle": "malfunction_0",
-      "data": {
-        "helper": "helper_B"
-      }
+      "malfunction": "malfunction_0",
+      "helper": "helper_11"
     },
     {
-      "time": 57.1,
+      "time": 132.0,
+      "type": "HELPER_SPAWN",
+      "vehicle": "helper_14",
+      "route": [
+        "A0B0",
+        "B0B1",
+        "B1B2",
+        "B2B3",
+        "B3C3",
+        "C3D3"
+      ]
+    },
+    {
+      "time": 139.5,
       "type": "HANDOFF",
-      "vehicle": "malfunction_0",
-      "data": {
-        "old_helper": "helper_C",
-        "new_helper": "helper_B"
-      }
+      "from": "helper_11",
+      "to": "helper_14"
     },
     {
-      "time": 65.3,
-      "type": "ESCORT_REQUEST",
-      "vehicle": "malfunction_0",
-      "data": {
-        "edge": "J2_J3"
-      }
+      "time": 139.5,
+      "type": "ESCORT_START",
+      "malfunction": "malfunction_0",
+      "helper": "helper_14"
+    },
+    {
+      "time": 142.0,
+      "type": "HELPER_SPAWN",
+      "vehicle": "helper_15",
+      "route": [
+        "A0B0",
+        "B0B1",
+        "B1B2",
+        "B2B3",
+        "B3C3",
+        "C3D3"
+      ]
+    },
+    {
+      "time": 152.0,
+      "type": "HELPER_SPAWN",
+      "vehicle": "helper_16",
+      "route": [
+        "A0B0",
+        "B0B1",
+        "B1B2",
+        "B2C2",
+        "C2D2"
+      ]
+    },
+    {
+      "time": 162.0,
+      "type": "HELPER_SPAWN",
+      "vehicle": "helper_17",
+      "route": [
+        "B0B1",
+        "B1B2",
+        "B2B3",
+        "B3C3",
+        "C3D3"
+      ]
+    },
+    {
+      "time": 172.0,
+      "type": "HELPER_SPAWN",
+      "vehicle": "helper_18",
+      "route": [
+        "B1B2",
+        "B2B3",
+        "B3C3",
+        "C3D3"
+      ]
+    },
+    {
+      "time": 182.0,
+      "type": "HELPER_SPAWN",
+      "vehicle": "helper_19",
+      "route": [
+        "B2B3",
+        "B3C3",
+        "C3D3"
+      ]
+    },
+    {
+      "time": 192.0,
+      "type": "HELPER_SPAWN",
+      "vehicle": "helper_20",
+      "route": [
+        "A0B0",
+        "B0C0",
+        "C0C1",
+        "C1C2",
+        "C2C3",
+        "C3D3"
+      ]
+    },
+    {
+      "time": 202.0,
+      "type": "HELPER_SPAWN",
+      "vehicle": "helper_21",
+      "route": [
+        "A0B0",
+        "B0B1",
+        "B1B2",
+        "B2B3",
+        "B3C3",
+        "C3D3"
+      ]
+    },
+    {
+      "time": 212.0,
+      "type": "HELPER_SPAWN",
+      "vehicle": "helper_22",
+      "route": [
+        "A0B0",
+        "B0B1",
+        "B1B2",
+        "B2B3",
+        "B3C3",
+        "C3D3"
+      ]
+    },
+    {
+      "time": 222.0,
+      "type": "HELPER_SPAWN",
+      "vehicle": "helper_23",
+      "route": [
+        "A0B0",
+        "B0B1",
+        "B1B2",
+        "B2C2",
+        "C2D2"
+      ]
+    },
+    {
+      "time": 232.0,
+      "type": "HELPER_SPAWN",
+      "vehicle": "helper_24",
+      "route": [
+        "B0B1",
+        "B1B2",
+        "B2B3",
+        "B3C3",
+        "C3D3"
+      ]
+    },
+    {
+      "time": 242.0,
+      "type": "HELPER_SPAWN",
+      "vehicle": "helper_25",
+      "route": [
+        "B1B2",
+        "B2B3",
+        "B3C3",
+        "C3D3"
+      ]
+    },
+    {
+      "time": 252.0,
+      "type": "HELPER_SPAWN",
+      "vehicle": "helper_26",
+      "route": [
+        "B2B3",
+        "B3C3",
+        "C3D3"
+      ]
+    },
+    {
+      "time": 256.1,
+      "type": "HANDOFF",
+      "from": "helper_14",
+      "to": "helper_25"
+    },
+    {
+      "time": 256.1,
+      "type": "ESCORT_START",
+      "malfunction": "malfunction_0",
+      "helper": "helper_25"
+    },
+    {
+      "time": 262.0,
+      "type": "HELPER_SPAWN",
+      "vehicle": "helper_27",
+      "route": [
+        "A0B0",
+        "B0C0",
+        "C0C1",
+        "C1C2",
+        "C2C3",
+        "C3D3"
+      ]
+    },
+    {
+      "time": 272.0,
+      "type": "HELPER_SPAWN",
+      "vehicle": "helper_28",
+      "route": [
+        "A0B0",
+        "B0B1",
+        "B1B2",
+        "B2B3",
+        "B3C3",
+        "C3D3"
+      ]
+    },
+    {
+      "time": 282.0,
+      "type": "HELPER_SPAWN",
+      "vehicle": "helper_29",
+      "route": [
+        "A0B0",
+        "B0B1",
+        "B1B2",
+        "B2B3",
+        "B3C3",
+        "C3D3"
+      ]
+    },
+    {
+      "time": 292.0,
+      "type": "HELPER_SPAWN",
+      "vehicle": "helper_30",
+      "route": [
+        "A0B0",
+        "B0B1",
+        "B1B2",
+        "B2C2",
+        "C2D2"
+      ]
     }
   ],
   "summary": {
-    "escort_count": 3,
-    "handoff_count": 2,
-    "total_time": 100.0
+    "escort_count": 4,
+    "handoff_count": 3,
+    "final_state": "being_escorted",
+    "total_time": 300.1
   }
 }

@@ -1,20 +1,28 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<!-- Urban grid network for realistic escort scenarios -->
 <nodes>
-    <!-- Entry/Exit points -->
-    <node id="W" x="0" y="200" type="priority"/>
-    <node id="E" x="800" y="200" type="priority"/>
-
-    <!-- Main corridor junctions -->
-    <node id="J1" x="200" y="200" type="priority"/>
-    <node id="J2" x="400" y="200" type="priority"/>
-    <node id="J3" x="600" y="200" type="priority"/>
-
-    <!-- South entry points -->
-    <node id="S1" x="200" y="0" type="priority"/>
-    <node id="S2" x="400" y="0" type="priority"/>
-    <node id="S3" x="600" y="0" type="priority"/>
-
-    <!-- North exit points -->
-    <node id="N2" x="400" y="400" type="priority"/>
-    <node id="N3" x="600" y="400" type="priority"/>
+    <!-- 4x4 grid of intersections - COMPACT for faster demo (150m edges) -->
+    <!-- Row 0 (South) -->
+    <node id="A0" x="0" y="0" type="priority"/>
+    <node id="B0" x="150" y="0" type="priority"/>
+    <node id="C0" x="300" y="0" type="priority"/>
+    <node id="D0" x="450" y="0" type="priority"/>
+    
+    <!-- Row 1 -->
+    <node id="A1" x="0" y="150" type="priority"/>
+    <node id="B1" x="150" y="150" type="priority"/>
+    <node id="C1" x="300" y="150" type="priority"/>
+    <node id="D1" x="450" y="150" type="priority"/>
+    
+    <!-- Row 2 -->
+    <node id="A2" x="0" y="300" type="priority"/>
+    <node id="B2" x="150" y="300" type="priority"/>
+    <node id="C2" x="300" y="300" type="priority"/>
+    <node id="D2" x="450" y="300" type="priority"/>
+    
+    <!-- Row 3 (North) -->
+    <node id="A3" x="0" y="450" type="priority"/>
+    <node id="B3" x="150" y="450" type="priority"/>
+    <node id="C3" x="300" y="450" type="priority"/>
+    <node id="D3" x="450" y="450" type="priority"/>
 </nodes>

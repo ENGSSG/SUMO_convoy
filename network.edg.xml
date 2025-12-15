@@ -1,17 +1,69 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<!-- Urban grid edges - bidirectional streets -->
 <edges>
-    <!-- Main east-west corridor -->
-    <edge id="W_J1" from="W" to="J1" numLanes="1" speed="13.89"/>
-    <edge id="J1_J2" from="J1" to="J2" numLanes="1" speed="13.89"/>
-    <edge id="J2_J3" from="J2" to="J3" numLanes="1" speed="13.89"/>
-    <edge id="J3_E" from="J3" to="E" numLanes="1" speed="13.89"/>
-
-    <!-- South entries -->
-    <edge id="S1_J1" from="S1" to="J1" numLanes="1" speed="13.89"/>
-    <edge id="S2_J2" from="S2" to="J2" numLanes="1" speed="13.89"/>
-    <edge id="S3_J3" from="S3" to="J3" numLanes="1" speed="13.89"/>
-
-    <!-- North exits -->
-    <edge id="J2_N2" from="J2" to="N2" numLanes="1" speed="13.89"/>
-    <edge id="J3_N3" from="J3" to="N3" numLanes="1" speed="13.89"/>
+    <!-- Horizontal streets (East-West) -->
+    <!-- Row 0 -->
+    <edge id="A0B0" from="A0" to="B0" numLanes="2" speed="13.9"/>
+    <edge id="B0A0" from="B0" to="A0" numLanes="2" speed="13.9"/>
+    <edge id="B0C0" from="B0" to="C0" numLanes="2" speed="13.9"/>
+    <edge id="C0B0" from="C0" to="B0" numLanes="2" speed="13.9"/>
+    <edge id="C0D0" from="C0" to="D0" numLanes="2" speed="13.9"/>
+    <edge id="D0C0" from="D0" to="C0" numLanes="2" speed="13.9"/>
+    
+    <!-- Row 1 -->
+    <edge id="A1B1" from="A1" to="B1" numLanes="2" speed="13.9"/>
+    <edge id="B1A1" from="B1" to="A1" numLanes="2" speed="13.9"/>
+    <edge id="B1C1" from="B1" to="C1" numLanes="2" speed="13.9"/>
+    <edge id="C1B1" from="C1" to="B1" numLanes="2" speed="13.9"/>
+    <edge id="C1D1" from="C1" to="D1" numLanes="2" speed="13.9"/>
+    <edge id="D1C1" from="D1" to="C1" numLanes="2" speed="13.9"/>
+    
+    <!-- Row 2 -->
+    <edge id="A2B2" from="A2" to="B2" numLanes="2" speed="13.9"/>
+    <edge id="B2A2" from="B2" to="A2" numLanes="2" speed="13.9"/>
+    <edge id="B2C2" from="B2" to="C2" numLanes="2" speed="13.9"/>
+    <edge id="C2B2" from="C2" to="B2" numLanes="2" speed="13.9"/>
+    <edge id="C2D2" from="C2" to="D2" numLanes="2" speed="13.9"/>
+    <edge id="D2C2" from="D2" to="C2" numLanes="2" speed="13.9"/>
+    
+    <!-- Row 3 -->
+    <edge id="A3B3" from="A3" to="B3" numLanes="2" speed="13.9"/>
+    <edge id="B3A3" from="B3" to="A3" numLanes="2" speed="13.9"/>
+    <edge id="B3C3" from="B3" to="C3" numLanes="2" speed="13.9"/>
+    <edge id="C3B3" from="C3" to="B3" numLanes="2" speed="13.9"/>
+    <edge id="C3D3" from="C3" to="D3" numLanes="2" speed="13.9"/>
+    <edge id="D3C3" from="D3" to="C3" numLanes="2" speed="13.9"/>
+    
+    <!-- Vertical streets (North-South) -->
+    <!-- Column A -->
+    <edge id="A0A1" from="A0" to="A1" numLanes="2" speed="13.9"/>
+    <edge id="A1A0" from="A1" to="A0" numLanes="2" speed="13.9"/>
+    <edge id="A1A2" from="A1" to="A2" numLanes="2" speed="13.9"/>
+    <edge id="A2A1" from="A2" to="A1" numLanes="2" speed="13.9"/>
+    <edge id="A2A3" from="A2" to="A3" numLanes="2" speed="13.9"/>
+    <edge id="A3A2" from="A3" to="A2" numLanes="2" speed="13.9"/>
+    
+    <!-- Column B -->
+    <edge id="B0B1" from="B0" to="B1" numLanes="2" speed="13.9"/>
+    <edge id="B1B0" from="B1" to="B0" numLanes="2" speed="13.9"/>
+    <edge id="B1B2" from="B1" to="B2" numLanes="2" speed="13.9"/>
+    <edge id="B2B1" from="B2" to="B1" numLanes="2" speed="13.9"/>
+    <edge id="B2B3" from="B2" to="B3" numLanes="2" speed="13.9"/>
+    <edge id="B3B2" from="B3" to="B2" numLanes="2" speed="13.9"/>
+    
+    <!-- Column C -->
+    <edge id="C0C1" from="C0" to="C1" numLanes="2" speed="13.9"/>
+    <edge id="C1C0" from="C1" to="C0" numLanes="2" speed="13.9"/>
+    <edge id="C1C2" from="C1" to="C2" numLanes="2" speed="13.9"/>
+    <edge id="C2C1" from="C2" to="C1" numLanes="2" speed="13.9"/>
+    <edge id="C2C3" from="C2" to="C3" numLanes="2" speed="13.9"/>
+    <edge id="C3C2" from="C3" to="C2" numLanes="2" speed="13.9"/>
+    
+    <!-- Column D -->
+    <edge id="D0D1" from="D0" to="D1" numLanes="2" speed="13.9"/>
+    <edge id="D1D0" from="D1" to="D0" numLanes="2" speed="13.9"/>
+    <edge id="D1D2" from="D1" to="D2" numLanes="2" speed="13.9"/>
+    <edge id="D2D1" from="D2" to="D1" numLanes="2" speed="13.9"/>
+    <edge id="D2D3" from="D2" to="D3" numLanes="2" speed="13.9"/>
+    <edge id="D3D2" from="D3" to="D2" numLanes="2" speed="13.9"/>
 </edges>

@@ -1,12 +1,39 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <routes>
     <!-- Vehicle types -->
-    <vType id="malfunction" accel="2.6" decel="4.5" sigma="0.0" length="5" maxSpeed="8" color="255,0,0"/>
-    <vType id="helper" accel="2.6" decel="4.5" sigma="0.5" length="5" maxSpeed="15" color="100,200,100"/>
-
-    <!-- Routes -->
-    <route id="route_malfunction" edges="W_J1 J1_J2 J2_J3 J3_E"/>
-    <route id="route_helper_A" edges="S1_J1 J1_J2 J2_N2"/>
-    <route id="route_helper_B" edges="S2_J2 J2_J3 J3_N3"/>
-    <route id="route_helper_C" edges="S3_J3 J3_E"/>
+    
+    <!-- Malfunctioning AV: Can follow but cannot plan routes independently -->
+    <vType id="malfunction" 
+           color="255,0,0"
+           length="4.5" 
+           maxSpeed="10" 
+           accel="2.0" 
+           decel="4.0"
+           sigma="0.0"
+           tau="1.0"
+           minGap="2.0"
+           speedFactor="1.0"
+           speedDev="0.0"/>
+    
+    <!-- Helper vehicles: Normal CAVs willing to assist -->
+    <vType id="helper" 
+           color="0,200,0"
+           length="4.5" 
+           maxSpeed="13.9" 
+           accel="2.6" 
+           decel="4.5"
+           sigma="0.2"
+           tau="0.8"
+           minGap="2.0"/>
+    
+    <!-- Background traffic -->
+    <vType id="background" 
+           color="100,100,255"
+           length="4.5" 
+           maxSpeed="13.9" 
+           accel="2.6" 
+           decel="4.5"
+           sigma="0.5"
+           tau="1.0"
+           minGap="2.5"/>
 </routes>
