@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<edges>
+    <!-- Main east-west corridor -->
+    <edge id="W_J1" from="W" to="J1" numLanes="1" speed="13.89"/>
+    <edge id="J1_J2" from="J1" to="J2" numLanes="1" speed="13.89"/>
+    <edge id="J2_J3" from="J2" to="J3" numLanes="1" speed="13.89"/>
+    <edge id="J3_E" from="J3" to="E" numLanes="1" speed="13.89"/>
+
+    <!-- South entries -->
+    <edge id="S1_J1" from="S1" to="J1" numLanes="1" speed="13.89"/>
+    <edge id="S2_J2" from="S2" to="J2" numLanes="1" speed="13.89"/>
+    <edge id="S3_J3" from="S3" to="J3" numLanes="1" speed="13.89"/>
+
+    <!-- North exits -->
+    <edge id="J2_N2" from="J2" to="N2" numLanes="1" speed="13.89"/>
+    <edge id="J3_N3" from="J3" to="N3" numLanes="1" speed="13.89"/>
+</edges>

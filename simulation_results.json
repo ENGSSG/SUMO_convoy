@@ -1,0 +1,67 @@
+{
+  "events": [
+    {
+      "time": 8.0,
+      "type": "ESCORT_REQUEST",
+      "vehicle": "malfunction_0",
+      "data": {
+        "edge": "W_J1"
+      }
+    },
+    {
+      "time": 8.0,
+      "type": "ESCORT_START",
+      "vehicle": "malfunction_0",
+      "data": {
+        "helper": "helper_A"
+      }
+    },
+    {
+      "time": 37.1,
+      "type": "ESCORT_START",
+      "vehicle": "malfunction_0",
+      "data": {
+        "helper": "helper_C"
+      }
+    },
+    {
+      "time": 37.1,
+      "type": "HANDOFF",
+      "vehicle": "malfunction_0",
+      "data": {
+        "old_helper": "helper_A",
+        "new_helper": "helper_C"
+      }
+    },
+    {
+      "time": 57.1,
+      "type": "ESCORT_START",
+      "vehicle": "malfunction_0",
+      "data": {
+        "helper": "helper_B"
+      }
+    },
+    {
+      "time": 57.1,
+      "type": "HANDOFF",
+      "vehicle": "malfunction_0",
+      "data": {
+        "old_helper": "helper_C",
+        "new_helper": "helper_B"
+      }
+    },
+    {
+      "time": 65.3,
+      "type": "ESCORT_REQUEST",
+      "vehicle": "malfunction_0",
+      "data": {
+        "edge": "J2_J3"
+      }
+    }
+  ],
+  "summary": {
+    "escort_count": 3,
+    "handoff_count": 2,
+    "total_time": 100.0
+  }
+}

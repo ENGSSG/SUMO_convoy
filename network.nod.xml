@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<nodes>
+    <!-- Entry/Exit points -->
+    <node id="W" x="0" y="200" type="priority"/>
+    <node id="E" x="800" y="200" type="priority"/>
+
+    <!-- Main corridor junctions -->
+    <node id="J1" x="200" y="200" type="priority"/>
+    <node id="J2" x="400" y="200" type="priority"/>
+    <node id="J3" x="600" y="200" type="priority"/>
+
+    <!-- South entry points -->
+    <node id="S1" x="200" y="0" type="priority"/>
+    <node id="S2" x="400" y="0" type="priority"/>
+    <node id="S3" x="600" y="0" type="priority"/>
+
+    <!-- North exit points -->
+    <node id="N2" x="400" y="400" type="priority"/>
+    <node id="N3" x="600" y="400" type="priority"/>
+</nodes>

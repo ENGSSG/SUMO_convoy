@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<viewsettings>
+    <scheme name="escort_demo">
+        <background backgroundColor="255,255,255"/>
+    </scheme>
+    <viewport x="600" y="0" zoom="150"/>
+    <delay value="100"/>
+</viewsettings>
